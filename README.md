@@ -1,4 +1,4 @@
-# Tic-Tac-Toe API & Web Client
+# Tic-Tac-Toe & Web Client
 
 ![Tic-Tac-Toe](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKjB1hvlWANB_ZnLbvhxIKwBCtkAbZJZcl-w&s)
 
