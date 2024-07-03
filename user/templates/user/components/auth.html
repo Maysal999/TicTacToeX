@@ -1,0 +1,33 @@
+<form class="auth-form" method="post">
+    
+
+{% csrf_token %}
+    
+    <div class="wrapper">
+        <div class="form">
+            <div class="FormContainer">
+                <div class="FormTitle">
+                    <h2>{{title}}</h2>
+                    <p class="text-style">Войдите в свой личный кабинет</p>
+                </div>
+                
+                {% for f in form  %}
+                  
+                
+                  
+                <div class="FormParent">
+                    <div class="FormInput">
+                      <label for="{{f.id_for_label}}" class="form-label">{{f.label}}</label>
+                      <div class="error_message">{{f.errors}}</div>
+                      {{f}}
+                    </div>
+                    {% endfor %}
+                    <div class="FormRegister">
+                        <button class="BtnLogin" type="submit" id="BtnOne">{{title}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </form>
+

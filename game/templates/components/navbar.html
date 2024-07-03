@@ -1,0 +1,26 @@
+<header>
+    <div class="navbar">
+            <div class="logo"><a href="#">TicTacToeX</a></div>
+            <ul class="links">
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'faq' %}">About</a></li>
+                <li><a href="{% url 'tictactoe' %}">Game</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+        <div class="log-reg_btns">
+            <li><a href="{% url 'login' %}" class="logReg_btn">Log in</a></li>
+            <li><a href="{% url 'register' %}" class="logReg_btn">Sign Up</a></li>
+        </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+    </div>
+</header>

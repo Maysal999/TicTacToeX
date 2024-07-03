@@ -1,0 +1,148 @@
+
+
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/home/maisal/Documents/tictactoe/pythonProject/game/static/img/menu2.jpg'); /* Относительный путь от CSS файла к изображению */
+    background-size: cover; /* Обеспечивает, что изображение покроет весь контейнер */
+    background-position: center; /* Центрирует изображение */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #ff6347;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.play-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Стили для изображений и текстов */
+section img.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+section.about-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.about-game .text, section.about-game .image {
+    width: 100%;
+}
+
+section.about-game .text {
+    text-align: center;
+}
+
+section.about-game img {
+    margin-top: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #ff6347;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}

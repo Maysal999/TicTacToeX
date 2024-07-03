@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/game.css' %}">
+{% endblock css %}
+    
+{% block content %}
+    <div class="tictac">
+
+        {% include 'components/play.html' %}
+    </div>
+{% endblock content %}
+    

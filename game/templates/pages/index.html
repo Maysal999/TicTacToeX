@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block css %}
+
+{% endblock css %}
+    
+{% block content %}
+    
+
+
+<conatainer>
+    <section id="hero">
+        <div class="wrapper_title">
+            <h1>Play TicTacToe & Track your progress</h1>
+            <p>Join the fun today!</p>
+
+<li style="list-style: none;"><a href="{% url 'tictactoe' %}" class="startGame_btn">Start Game</a></li>
+        </div>
+        <div class="wrapper_picture">
+            <img src="{% static 'img/photo_global.png' %}" alt="" width="80%">
+        </div>
+    </section>
+</conatainer>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDownMenu = document.querySelector('.dropdown_menu');
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open');
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+    };
+</script>
+{% endblock content %}

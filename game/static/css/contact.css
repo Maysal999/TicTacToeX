@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* белый цвет фона */
+    color: #000; /* черный цвет текста */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000; /* черный цвет фона шапки */
+    color: #fff; /* белый цвет текста в шапке */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* другой стиль тени */
+}
+
+
+main {
+    padding: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc; /* серая горизонтальная линия между вопросами */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* добавляем тень */
+    margin-bottom: 20px; /* добавляем немного отступа между блоками */
+}
+
+.question {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #000; /* черный цвет фона подвала */
+    color: #fff; /* белый цвет текста в подвале */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
