@@ -15,7 +15,7 @@
 
 ## 🖼️ Скриншоты
 
-![Game Screenshot](https://ibb.co/djn81ST)
+<a href="https://ibb.co/djn81ST"><img src="https://i.ibb.co/RYLRZ1F/Screenshot-2024-07-03-at-16-28-43.png" alt="Screenshot-2024-07-03-at-16-28-43" border="0"></a>
 
 *Пример интерфейса игры "Крестики-нолики".*
 
